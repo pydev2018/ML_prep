@@ -133,7 +133,7 @@ def PlayGolf():
         message = "Sorry, I cannot find that location..."
 
         # <<YOUR_API_KEY>> Update line with your OpenWeatherMap API key <<YOUR_API_KEY>>
-        openweathermap_url = "http://api.openweathermap.org/data/2.5/forecast?q=" + selected_location + "&mode=json&APPID=<<YOUR_API_KEY>>"
+        openweathermap_url = "http://api.openweathermap.org/data/2.5/forecast?q=" + selected_location + "&mode=json&APPID=524fef41a278c2fb052e6a83412f60e2"
         
         weather_json = []
         try:
